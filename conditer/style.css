@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Kurale', normal;
+    background-color: #fff;
+    color: black;
+}
+.icons {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 26px;
+    right: 100px;
+    gap: 10px; 
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.welcome_title {
+    position: absolute;
+    width: 788px;
+    left: 570px;
+    top: 254px;
+
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 89px;
+
+    color: #753375;
+}
+
+.welcome_desc {
+    position: absolute;
+    width: 788px;
+    height: 60px;
+    left: 570px;
+    top: 432px;
+
+    font-weight: 400;
+    font-size: 20px;
+    color: #4B4545;
+}
+
+.btn-container {
+    position: absolute;
+    width: 207px;
+    height: 75px;
+    left: 570px;
+    top: 548px;
+    
+    background: #FFFFFF;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    font-size: 30px;
+    color: #753375;
+    text-decoration: none; 
+}
+
+.vector_wave {
+    display: flex;
+}
+
+
+
+.about_main_title {
+    position: absolute;
+    width: 700px;
+    height: 118px;
+    left: 109px;
+    top: 927px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+
+    color: #000000;
+}
+
+.about_title {
+    position: absolute;
+    width: 604px;
+    height: 64px;
+    left: 106px;
+    top: 1054px;
+
+    font-family: 'Segoe Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #753375;
+}
+
+.about_desc {
+    position: absolute;
+    width: 604px;
+    height: 80px;
+    left: 106px;
+    top: 1143px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #000000;
+
+}
+
+.btn-cont {
+    position: absolute;
+    width: 295px;
+    height: 62px;
+    left: 100px;
+    top: 1250px;
+
+    background: #753375;
+    border-radius: 50px;
+
+}
+
+.btn2 {
+    position: absolute;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none; 
+    left: 90px;
+    margin-top: 10px;
+}
+
+.main_image {
+    position: absolute;
+    width: 587px;
+    height: 411px;
+    left: 750px;
+    top: 927px;
+}
+
+.cakes {
+    margin-top: 700px;
+}
+
+.our_cake {
+    position: absolute;
+    width: 271px;
+    height: 59px;
+    left: 109px;
+    top: 1450px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.menu_products .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    padding: 0 15px;
+    margin-left: 100px;
+}
+
+.product_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+.product_box {
+    background: #FFFFFF;
+    width: 295px;
+    height: 409px;
+    position: relative; 
+    flex-shrink: 0;
+}
+
+.price_background {
+    width: 206px;
+    height: 58px;
+    margin: 20px auto;
+    background: #F3EDED;
+    text-align: center;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+
+.product_title {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #753375;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.btn-background {
+    width: 206px;
+    height: 58px;
+    background: #753375;
+    border-radius: 50px;
+    margin: 20px auto; 
+    text-align: center;
+}
+
+.btn3 {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    line-height: 58px;
+}
+
+.services_block {
+    margin-top: 100px;
+}
+
+.main_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.menu_cakes .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.all_cakes {
+    flex: 1 1 45%;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #753375;
+    margin-bottom: 10px;
+}
+
+.cake_dasc {
+    font-weight: 0;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: lowercase;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.cake_price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #E47E55;
+}
+
+.line {
+    width: 550px; 
+    border: 1px solid #000000;
+}
+
+.footer_block {
+    width: 100%;
+    height: 392px;
+    background-color: #1E1D1D;
+    margin-top: 141px;
+}
+
+.footer_class {
+    position: absolute;
+    width: 544px;
+    left: 110px;
+    top: 2775px;
+    font-size: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.icons2 img {
+    margin: 10px;
+    position: relative;
+    width: 50px;
+    left: 110px; 
+    top: 240px;
+}
+
+.footer_logo {
+   margin-left: 1100px;
+   top: 100px;
+}
